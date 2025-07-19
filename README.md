@@ -2,6 +2,8 @@
 
 日付文字列の直後で実行すると、その日付の曜日表記を日本語で挿入するEmacs Lisp関数です。
 
+[![demonstration video](https://github.com/mrmt/insert-japanese-day-of-the-week/blob/2fb7b3dc1e8844dfd3d274961cdb7050c703af7a/assets/video.jpg?raw=true)](https://www.youtube.com/watch?v=iuNncIsojvc)
+
 ## 実行例
 
 このような例文があったとして、
