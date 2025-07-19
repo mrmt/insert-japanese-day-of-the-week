@@ -14,9 +14,9 @@
 (require 'ert)
 (ert-delete-all-tests)
 
-(load-file "insert-japanese-day-of-the-week.el")
+(load-file "../insert-japanese-day-of-the-week.el")
 
-(defun my-fixed-decode-time ()
+(defun my-fixed-decode-time (&optional time zone)
   "2025年7月5日 00:00:00 土曜日 を返すモック."
   ;; (秒 分 時 日 月 年 曜日 DST tz)
   (list 0 0 0 5 7 2025 6 nil nil))
